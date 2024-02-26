@@ -16,7 +16,7 @@
       // Attach event listener for smooth color disappearance after 1 second
       square.addEventListener("mouseout", function() {
         setTimeout(() => {
-          square.style.backgroundColor = "rgb(22, 43, 22)";
+          square.style.backgroundColor = "rgb(29, 29, 29)";
         }, 1000);
       });
     }
